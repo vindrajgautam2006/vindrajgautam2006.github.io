@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Design Studio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: white;
+        }
+
+        header {
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 7%;
+            border-bottom: 1px solid #26334d;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .logo span {
+            color: #8b5cf6;
+        }
+
+        nav a {
+            color: #cbd5e1;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+        .hero {
+            min-height: calc(100vh - 70px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .hero-content {
+            max-width: 800px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #1e293b;
+            border: 1px solid #334155;
+            padding: 8px 16px;
+            border-radius: 30px;
+            margin-bottom: 25px;
+            color: #c4b5fd;
+        }
+
+        h1 {
+            font-size: 60px;
+            line-height: 1.1;
+            margin-bottom: 20px;
+        }
+
+        h1 span {
+            color: #8b5cf6;
+        }
+
+        .description {
+            font-size: 19px;
+            color: #94a3b8;
+            line-height: 1.6;
+            margin-bottom: 35px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .btn {
+            padding: 14px 25px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .primary {
+            background: #8b5cf6;
+            color: white;
+        }
+
+        .primary:hover {
+            background: #7c3aed;
+        }
+
+        .secondary {
+            border: 1px solid #475569;
+            color: white;
+        }
+
+        .secondary:hover {
+            background: #1e293b;
+        }
+
+        @media (max-width: 700px) {
+            nav {
+                display: none;
+            }
+
+            h1 {
+                font-size: 40px;
+            }
+
+            .description {
+                font-size: 16px;
+            }
+
+            .buttons {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            AI <span>Design Studio</span>
+        </div>
+
+        <nav>
+            <a href="Home.html">Home</a>
+            <a href="#">AI Generator</a>
+            <a href="#">Pricing</a>
+            <a href="Login.html">Login</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <div class="badge">
+                ✨ Create with AI Design Studio
+            </div>
+
+            <h1>
+                Turn Your Ideas Into
+                <span>Amazing Designs</span>
+            </h1>
+
+            <p class="description">
+                Create stunning images, posters and creative designs
+                with the power of AI — simple, fast and easy.
+            </p>
+
+            <div class="buttons">
+                <a href="generator.html" class="btn primary">
+                    🚀 Start Creating
+                </a>
+
+                <a href="#" class="btn secondary">
+                    Explore Tools
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+</html>
